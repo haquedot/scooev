@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoo EV Rentals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="fixed-top bg-white w-100">
+        <div class="container  text-center py-3 ">
+            <nav class="d-flex w-100 justify-content-between align-items-center">
+                <a href="#" class="navbar-logo">
+                    <img src="/images/logo.png" alt="Scoo EV">
+                </a>
+                <button class="primary-btn">Rent Now</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-white h-full d-flex flex-column justify-content-center">
+                    <h1>Rent Brand new OLA S1 X today!</h1>
+                    <p>Scoo provides cost-effective rentals for delivery partners, individuals, and businesses.</p>
+                </div>
+                <div class="col-lg-4">
+                    <form>
+                        <div class="d-block">
+                            <label class="mb-2" for="name">Name</label>
+                            <input id="name" type="text" class="form-control" placeholder="eg. rohan">
+                        </div>
+                        <div class="d-block">
+                            <label class="mb-2" for="email">Email</label>
+                            <input id="email" type="email" class="form-control" placeholder="eg. rohan@gmail.com">
+                        </div>
+                        <div class="d-block">
+                            <label class="mb-2" for="phone">Phone</label>
+                            <input id="phone" type="tel" class="form-control" placeholder="eg. 9876543210">
+                        </div>
+                        <div class="d-block">
+                            <label class="mb-2" for="rental">Type of Rental</label>
+                            <select id="rental" class="form-select">
+                                <option value="">Select</option>
+                            </select>
+                        </div>
+                        <a href="success.html" class="primary-btn w-100 text-decoration-none">Rent Now</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Riders Section -->
+    <section id="riders" class=" py-5">
+        <div class="container text-center">
+            <div class="d-lg-none">
+                <h2>Our Existing Riders</h2>
+                <p>We have 2000+ bikes on road</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Owl carousel image only -->
+                    <div class="owl-carousel owl-theme riderCarousel">
+                        <div class="item">
+                            <img class="img-fluid rounded" src="/images/rider1.png" alt="Rider 1">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid rounded" src="/images/rider2.png" alt="Rider 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <h2 class="text-start">Our Existing Riders</h2>
+                    <p class="text-start mb-5">
+                        Our growing fleet is trusted by individuals and businesses alike, helping them reduce costs,
+                        increase efficiency, and contribute to a greener future. Whether you're a delivery professional
+                        or an everyday commuter, Scoo has the right solution for you. Our Customers have continued to
+                        make deliveries uninterruptedly with work-ethic and trust.
+                    </p>
+
+                    <div class="d-flex align-items-center justify-content-center counter">
+                        <div class="d-block">
+                            <h3>4</h3>
+                            <p>
+                                years in industry
+                            </p>
+                        </div>
+                        <div class="d-block">
+                            <h3>2000+</h3>
+                            <p>
+                                riders on road
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- B2B Customers Section -->
+    <section id="b2bCustomers" class="container p-0">
+        <h2 class="mb-5">Our B2B Customers</h2>
+        <div class="logos pb-5">
+            <div class="logo_items d-flex justify-content-between ">
+                <img class="img-fluid" src="/images/Delhivery.png" alt="Company 1">
+                <img class="img-fluid" src="/images/56.png" alt="Company 2">
+                <img class="img-fluid" src="/images/idFresh.png" alt="Company 3">
+                <img class="img-fluid" src="/images/LaundryAnna.png" alt="Company 3">
+                <img class="img-fluid" src="/images/medgenome.png" alt="Company 3">
+                <img class="img-fluid" src="/images/Swiggy.png" alt="Company 3">
+                <img class="img-fluid" src="/images/Zomato.png" alt="Company 3">
+                <img class="img-fluid" src="/images/logoBlue.png" alt="Company 3">
+                <img class="img-fluid" src="/images/FWD.png" alt="Company 3">
+                <img class="img-fluid" src="/images/mealsWala.png" alt="Company 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="why-scoo-section">
+        <div class="container">
+
+            <!-- Heading -->
+            <h2 class="mb-5">Why Scoo EV?</h2>
+
+            <!-- Desktop View -->
+            <div class="row m-0 desktop-view">
+                <div class="col-md-6">
+                    <div class="card-custom">
+                        <h5>Individual rental</h5>
+                        <ul>
+                            <li>Road side assistance</li>
+                            <li>Low-cost maintenance and fuel savings</li>
+                            <li>Fast and reliable</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-custom">
+                        <h5>B2B Fleet rental</h5>
+                        <ul>
+                            <li>Optimized fleet management</li>
+                            <li>Cost savings on fuel and maintenance</li>
+                            <li>Custom plans for delivery businesses and fleet services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile View -->
+            <div class="mobile-view">
+                <ul class="nav nav-underline" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="individual-tab" data-bs-toggle="tab" href="#individual"
+                            role="tab" aria-controls="individual" aria-selected="true">Individual rental</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="b2b-tab" data-bs-toggle="tab" href="#b2b" role="tab" aria-controls="b2b"
+                            aria-selected="false">B2B Fleet rental</a>
+                    </li>
+                </ul>
+                <div class="tab-content mt-3" id="myTabContent">
+                    <div class="tab-pane fade show active" id="individual" role="tabpanel"
+                        aria-labelledby="individual-tab">
+                        <div class="card-custom">
+                            <ul class="">
+                                <li>Road side assistance</li>
+                                <li>Low-cost maintenance and fuel savings</li>
+                                <li>Fast and reliable</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="b2b" role="tabpanel" aria-labelledby="b2b-tab">
+                        <div class="card-custom">
+                            <ul class="">
+                                <li>Optimized fleet management</li>
+                                <li>Cost savings on fuel and maintenance</li>
+                                <li>Custom plans for delivery businesses and fleet services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="plans" class="">
+        <div class="container">
+            <h2 class="mb-5">Plans & Pricing</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Owl carousel image only -->
+                    <div class="owl-carousel owl-theme riderCarousel">
+                        <div class="item">
+                            <img class="img-fluid rounded" src="/images/bike1.jpeg" alt="Rider 1">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid rounded" src="/images/bike1.jpeg" alt="Rider 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-block">
+                        <h2 class="text-start">Ola S1X</h2>
+                        <ul class="ps-4 pt-4">
+                            <li>
+                                Smart Connectivity
+                            </li>
+                            <li>
+                                Low-cost maintenance and fuel savings
+                            </li>
+                            <li>
+                                Fast and reliable
+                            </li>
+                        </ul>
+                        <p class="price pb-4">
+                            ₹6000
+                            <span>
+                                bike/month
+                            </span>
+                        </p>
+                    </div>
+
+                    <button class="primary-btn w-100">Rent Now</button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact us Banner -->
+
+    <section id="contactBanner" class="container">
+        <div class="contact d-lg-flex justify-content-center align-items-center">
+            <div class="d-block">
+                <h2 class="text-white mb-3">
+                    Explore Our Flexible Plans!
+                </h2>
+                <p class="mb-3 mb-lg-0 text-center">
+                    Contact us for monthly, weekly, and
+                    yearly options tailored to your needs
+                </p>
+            </div>
+            <button class="primary-btn">Contact Us</button>
+
+            <div class="right-circle d-none d-lg-block">
+
+            </div>
+
+            <div class="left-circle d-none d-lg-block">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials" class="container">
+        <div class="d-block mb-3">
+            <h2 class="mb-3">
+                Customers loves Scoo EV
+            </h2>
+            <h6 class="text-center">
+                What our customer says about us
+            </h6>
+        </div>
+
+        <div class="owl-carousel owl-theme testimonialCarousel">
+            <div class="item py-4">
+                <div class="card-custom">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="61" height="38" viewBox="0 0 61 38" fill="none">
+                            <path
+                                d="M16.4606 0.47377L0.5 37.7369H22.2241L30.6478 0.47377H16.4606ZM46.3128 0.47377L30.3522 37.7369H52.0764L60.5 0.47377H46.3128Z"
+                                fill="#FFC700" />
+                        </svg>
+                    </div>
+                    <p class="mb-5">
+                        Everything was done seamlessly over the phone. From the initial inquiry till documentation and
+                        payment it was all an easy process to rent my E-scooter. On-boarding and service was quick and
+                        professional. Thank you Scoo EV team
+                    </p>
+                    <hr />
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid rounded-circle" src="/images/customer1.png" alt="Customer 1">
+                        <div class="ms-3">
+                            <h5 class="m-0">Lohit Ramprasad</h5>
+                            <div class="d-flex ratings">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item py-4">
+                <div class="card-custom">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="61" height="38" viewBox="0 0 61 38" fill="none">
+                            <path
+                                d="M16.4606 0.47377L0.5 37.7369H22.2241L30.6478 0.47377H16.4606ZM46.3128 0.47377L30.3522 37.7369H52.0764L60.5 0.47377H46.3128Z"
+                                fill="#FFC700" />
+                        </svg>
+                    </div>
+                    <p class="mb-5">
+                        Scoo EV has been my preferred mode of commute for the last 4-months. Inconveniences I faced was
+                        quickly solved by the road-side assistance team. Scoo EV is the best bike rental partners in
+                        Bengaluru
+                    </p>
+
+                    <hr />
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid rounded-circle" src="/images/customer2.png" alt="Customer 1">
+                        <div class="ms-3">
+                            <h5 class="m-0">Rohit Kapala</h5>
+                            <div class="d-flex ratings">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item py-4">
+                <div class="card-custom">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="61" height="38" viewBox="0 0 61 38" fill="none">
+                            <path
+                                d="M16.4606 0.47377L0.5 37.7369H22.2241L30.6478 0.47377H16.4606ZM46.3128 0.47377L30.3522 37.7369H52.0764L60.5 0.47377H46.3128Z"
+                                fill="#FFC700" />
+                        </svg>
+                    </div>
+                    <p class="mb-4">
+                        Working effortlessly for 10-12 hours in a day, Scoo Evs make my day run smooth and efficiently.
+                        With
+                        great mileage and zero-maintenance issues, I’ve been able to double my monthly income. I
+                        recommend
+                        everyone to switch to Scoo EVs
+                    </p>
+
+                    <hr />
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid rounded-circle" src="/images/customer2.png" alt="Customer 1">
+                        <div class="ms-3">
+                            <h5 class="m-0">Rathnakar Panda</h5>
+                            <div class="d-flex ratings">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="faqs" class="container">
+        <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        How does billing and payment work?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Billing and payment are processed through our secure online payment system...
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How is the service part taken care of?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Our service team ensures that all scooters are properly maintained...
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Can I rent a scooter for group events?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we offer scooter rentals for group events with special pricing...
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Can businesses rent scooters from Scoo?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we provide rental services for businesses looking to use scooters for employee transport...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="d-block">
+                        <img src="/images/logoFooter.png" alt="" srcset="">
+                        <p>
+                            Rent Affordable, EV Scooter for Personal Useor Your Business!
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center justify-content-lg-end my-5 my-lg-3">
+                        <p class="m-0 me-4">
+                            “Ready to Go Electric?
+                        </p>
+                        <button class="primary-btn">
+                            Rent your EV now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-block d-lg-none ">
+                <p>
+                    <a href="#" class="me-2">Privacy Policy</a>
+                </p>
+                <p>
+                    <a href="#" class="me-2">Cancellation and Refund</a>
+                </p>
+                <p>
+                    <a href="#">Terms & Conditions</a>
+                </p>
+            </div>
+
+            <div class="d-flex mb-4">
+                <div class="flex social-icons">
+                    <a href="#" target="_blank">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <hr class="d-none d-lg-block my-4" />
+
+            <div class="d-flex justify-content-between">
+                <p>&copy; 2023 Scoo EV. All Rights Reserved.</p>
+
+                <div class="d-none d-lg-flex">
+                    <p>
+                        <a href="#" class="me-2">Privacy Policy</a>
+                    </p>
+                    <p>
+                        <a href="#" class="me-2">Cancellation and Refund</a>
+                    </p>
+                    <p>
+                        <a href="#">Terms & Conditions</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
