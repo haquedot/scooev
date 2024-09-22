@@ -57,7 +57,8 @@ header .navbar-logo img {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 200px;
+
+    width: 150px;
 }
 
 .outline-btn {
@@ -75,7 +76,7 @@ header .navbar-logo img {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 200px;
+    width: 150px;
 }
 
 .outline-btn:hover {
@@ -149,8 +150,9 @@ select {
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
-    /* 200% */
 }
+
+
 
 #b2bCustomers {
     background: #EFF0F3;
@@ -366,6 +368,19 @@ select {
     color: #FFC700;
 }
 
+#testimonials .owl-theme .owl-dots .owl-dot span {
+    width: 54px !important;
+    height: 5px;
+    margin: 5px 7px;
+    background: #82cd0936;
+    border-radius: 30px;
+}
+
+#testimonials .owl-theme .owl-dots .owl-dot.active span {
+    background: #83CD09;
+}
+
+
 #faqs {
     padding-bottom: 88px;
 }
@@ -443,7 +458,7 @@ footer .primary-btn {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 88px;
+    line-height: 40px;
 }
 
 #success p {
@@ -456,6 +471,16 @@ footer .primary-btn {
 
 /* Larger Screen Styles */
 @media (min-width: 991px) {
+
+
+    .whatsapp-btn {
+        width: 200px;
+    }
+
+    .outline-btn {
+        width: 200px;
+    }
+
     h2 {
         color: #1E1F24;
         text-align: center;
@@ -543,8 +568,9 @@ footer .primary-btn {
 
     #success h1 {
         font-size: 40px;
+        line-height: 88px;
     }
-    
+
     #success p {
         margin-bottom: 48px;
     }
